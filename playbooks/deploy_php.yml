@@ -1,7 +1,8 @@
 # install php setting
 
 ---
-- hosts: '{{ inventory }}'
+- name:  php & composer
+  hosts: '{{ inventory }}'
   remote_user: root
 
   vars_file:
