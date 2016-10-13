@@ -7,5 +7,4 @@
 
   roles:
     - { role: geerlingguy.nginx }
-    - { role: geerlingguy.php }
-    - { role: geerlingguy.composer }
+
