@@ -1,0 +1,7 @@
+# install ntp server
+
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - ntp
