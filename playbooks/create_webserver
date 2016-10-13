@@ -1,0 +1,11 @@
+---
+- hosts: '{{ inventory }}'
+  remote_user: root
+
+  vars_file:
+    - vars/main.yml
+
+  roles:
+    - { role: geerlingguy.nginx }
+    - { role: geerlingguy.php }
+    - { role: geerlingguy.composer }
