@@ -4,7 +4,6 @@
   apt_repository:
     repo: "{{ item }}"
   with_items:
-    - 'ppa:xespackages/tmux'
     - 'ppa:chris-lea/node.js'
 
 - name: 'Install base software - {{ item }}'
@@ -26,5 +25,4 @@
 - name: 'Install base software - {{ item }}'
   apt: name={{ item }} state=latest
   with_items:
-    - ruby2.2
     - nodejs
