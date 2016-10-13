@@ -1,0 +1,10 @@
+# server cleaup ...
+
+---
+- hosts: '{{inventory}}'
+  become: yes
+  remote_user: sudo
+
+  tasks:
+  - name: Cleaning up
+    shell: sudo apt-get -f install && sudo apt-get autoremove && sudo apt-get -y autoclean && sudo apt-get -y clean
