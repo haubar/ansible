@@ -1,0 +1,9 @@
+# create user on remote server 
+
+---
+- hosts: '{{inventory}}'
+  remote_user: root
+ 
+ 
+  roles:
+  - user
