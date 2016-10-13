@@ -1,9 +1,9 @@
 # server cleaup ...
 
 ---
-- hosts: '{{inventory}}'
-  become: yes
-  remote_user: sudo
+- name:  Clean Up
+  hosts: '{{inventory}}'
+  remote_user: root
 
   tasks:
   - name: Cleaning up
