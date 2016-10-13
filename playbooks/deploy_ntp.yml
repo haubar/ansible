@@ -1,7 +1,8 @@
 # install ntp server
 
 ---
-- hosts: '{{inventory}}'
+- name:  MySQL
+  hosts: '{{inventory}}'
   become: yes
   roles:
   - ntp
