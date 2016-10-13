@@ -1,0 +1,12 @@
+# install php setting
+
+---
+- hosts: '{{ inventory }}'
+  remote_user: root
+
+  vars_file:
+    - vars/main.yml
+
+  roles:
+    - { role: geerlingguy.php }
+    - { role: geerlingguy.composer }
