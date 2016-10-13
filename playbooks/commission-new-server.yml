@@ -1,0 +1,6 @@
+# create new server
+
+---
+- hosts: '{{ inventory }}'
+  roles:
+  - common
