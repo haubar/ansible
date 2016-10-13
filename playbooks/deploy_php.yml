@@ -3,7 +3,7 @@
 ---
 - name:  php & composer
   hosts: '{{ inventory }}'
-  remote_user: root
+  become: yes
 
   vars_file:
     - vars/main.yml
