@@ -1,0 +1,12 @@
+# install git
+
+---
+- name:  git
+  hosts: '{{ inventory }}'
+  remote_user: root
+
+  vars_file:
+    - vars/main.yml
+
+  roles:
+    - { role: geerlingguy.git }
