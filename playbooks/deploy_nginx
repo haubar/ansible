@@ -1,3 +1,5 @@
+# install nginx server 
+
 ---
 - hosts: '{{ inventory }}'
   remote_user: root
