@@ -5,7 +5,7 @@
   hosts: '{{ inventory }}'
   become: yes
   vars_files:
-    - vars/main.yml
+    #- vars/main.yml
     
   roles:
     - { role: geerlingguy.mysql }
