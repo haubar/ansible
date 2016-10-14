@@ -4,5 +4,6 @@
 
 - name: create new server
   hosts: '{{ inventory }}'
+  remote_user: root
   roles:
   - common
