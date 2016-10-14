@@ -4,8 +4,6 @@
 - hosts: '{{ inventory }}'
   become: yes
 
-  vars_file:
-    - vars/main.yml
 
   roles:
     - { role: geerlingguy.nginx }
