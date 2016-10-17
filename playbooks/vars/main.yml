@@ -39,6 +39,8 @@ php_packages:
   - php5-xsl
   - php5-fpm
 
+php_install_recommends: no
+
 php_webserver_daemon: "nginx"
 php_enable_php_fpm: true
 
