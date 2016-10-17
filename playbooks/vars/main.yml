@@ -26,8 +26,8 @@ mysql_packages:
 #php_max_execution_time: "90"
 #php_upload_max_filesize: "256M"
 php_packages:
-  - php5
-  - php5-cli
+  - php
+  - php-cli
   - php-common
   - php-devel
   - php-gd
