@@ -26,13 +26,13 @@ mysql_packages:
 #php_max_execution_time: "90"
 #php_upload_max_filesize: "256M"
 php_packages:
-  - php
-  - php-cli
-  - php-common
-  - php-devel
-  - php-gd
-  - php-mbstring
-  - php-pdo
-  - php-pecl-apcu
-  - php-xml
+  - php5-cli
+  - php5-json
+  - php5-common
+  - php5-devel
+  - php5-gd
+  - php5-mbstring
+  - php5-pdo
+  - php5-pecl-apcu
+  - php5-xml
 
