@@ -6,5 +6,5 @@
   become: yes
   
   roles:
-    - php
+    - { role: php}
     - { role: geerlingguy.composer }
