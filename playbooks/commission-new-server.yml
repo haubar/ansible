@@ -7,3 +7,5 @@
   remote_user: root
   roles:
   - common
+  - hostname
+  - ntp
