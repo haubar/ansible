@@ -31,5 +31,4 @@ php_packages:
   - php5-common
   - php5-dev
   - php5-gd
-  - php5-xml
 
