@@ -31,7 +31,6 @@ php_packages:
   - php5-common
   - php5-dev
   - php5-gd
-  - php5-pdo
   - php5-pecl-apcu
   - php5-xml
 
