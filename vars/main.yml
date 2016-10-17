@@ -1,0 +1,38 @@
+
+
+---
+
+#mysql
+
+mysql_root_password: root
+mysql_databases:
+  - name: i3fresh_db
+    encoding:  utf8_general_ci
+    collation: utf8_general_ci
+mysql_users:
+  - name: i3fresh
+    host: "%"
+    password: hserf3i
+    priv: "i3fresh_db.*:ALL"
+mysql_packages:
+  - mariadb-client
+  - mariadb-server
+  - python-mysqldb
+
+
+
+# php
+php_memory_limit: "128M"
+php_max_execution_time: "90"
+php_upload_max_filesize: "256M"
+php_packages:
+  - php
+  - php-cli
+  - php-common
+  - php-devel
+  - php-gd
+  - php-mbstring
+  - php-pdo
+  - php-pecl-apcu
+  - php-xml
+
