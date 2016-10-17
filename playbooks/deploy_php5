@@ -1,0 +1,10 @@
+# install php setting
+
+---
+- name:  php & composer
+  hosts: '{{ inventory }}'
+  become: yes
+  
+  roles:
+    - php
+    - { role: geerlingguy.composer }
