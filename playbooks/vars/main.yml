@@ -64,7 +64,8 @@ php_session_gc_maxlifetime: 1440
 php_session_save_handler: files
 php_session_save_path: ''
 
-php_opcache_enable: "1"
+
+php_opcache_enable: "0"
 php_opcache_enable_cli: "0"
 php_opcache_memory_consumption: "96"
 php_opcache_interned_strings_buffer: "16"
