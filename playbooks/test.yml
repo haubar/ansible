@@ -1,0 +1,19 @@
+# server cleaup ...
+
+---
+- name: TEST
+  hosts: dodb
+  #hosts: '{{inventory}}'
+  #remote_user: root
+
+  tasks:
+  #- name: Cleaning up
+  #  shell: sudo apt-get autoremove
+   
+   # task 1
+  - name: test connection
+    ping: 
+
+  # task 2
+  - name: print server used space
+    command: df -h
